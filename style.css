@@ -1,0 +1,131 @@
+body{
+    background-color: #ecece6;
+    font-family: montserrat, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hero{
+    text-align: center;
+    color: white;
+}
+h2{
+    font-size: 2rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+}
+
+nav ul{
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.4rem;
+}
+
+nav li{
+    display: inline-block;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 2rem;
+}
+section{
+    display: flex;
+    /* flex-direction: column; */
+    
+}
+@media (max-width: 800px) {
+    section {
+      flex-direction: column;
+    }
+  }
+/* .hero{
+    background-image: url(images/bg.jpg);
+} */
+
+section img{
+    width: 25rem;
+    border-radius: 0.3rem;
+}
+
+
+article{
+    flex: 1;
+    
+}
+
+footer{
+    
+    display: flex;
+    
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.4rem;
+}
+footer div{
+    flex: 1;
+    
+}
+
+
+footer div ul{
+    list-style: none;
+}
+footer div ul li a{
+    
+    text-decoration: none;
+    color: black;
+}
+footer img{
+    width: 5rem;
+}
+
+.try{
+    background-color: white;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.cards{
+    margin: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding-left: 2rem;
+}
+
+button{
+    font-size: 1.3rem;
+    width: 15rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0.3rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+*{
+    scroll-behavior:smooth;
+}
+/* .cardss{
+    background-image: url(images/olol.png);
+    background-size:cover;
+} */
+
+.footerright{
+  
+    text-align: right;
+}
