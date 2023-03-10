@@ -46,20 +46,20 @@ nav li a{
 }
 section{
     display: flex;
-    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 2rem 1rem; */
     
 }
-@media (max-width: 800px) {
-    section {
-      flex-direction: column;
-    }
-  }
+
+
 /* .hero{
     background-image: url(images/bg.jpg);
 } */
 
 section img{
-    width: 25rem;
+    /* width: inherit; */
+    width: 90%;
     border-radius: 0.3rem;
 }
 
@@ -72,7 +72,6 @@ article{
 footer{
     
     display: flex;
-    
     background-color: white;
     padding: 2rem;
     border-radius: 0.4rem;
@@ -128,4 +127,21 @@ button{
 .footerright{
   
     text-align: right;
+}
+@media screen and (max-width: 500px) {
+    section{
+            flex-direction: column;
+}
+    nav ul{
+        /* text-align: left; */
+        padding:0.5rem;
+        
+    }
+    nav li{
+        display: inline;
+    }
+nav li a{
+    padding: 1rem;
+}
+
 }
